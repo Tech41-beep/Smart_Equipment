@@ -1,0 +1,23 @@
+{
+  "name": "smart-borrowing-system",
+  "version": "1.0.0",
+  "description": "A web application for managing shared equipment inventory, borrower requests, checkouts, returns, and overdue items.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "prisma skills sync || exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "prisma": "^7.10.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^7.10.1"
+  }
+}
